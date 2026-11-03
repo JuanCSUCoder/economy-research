@@ -57,3 +57,54 @@ hr {
 strong {
   font-weight: 700;
 }
+
+h3 {
+  font-size: 10.5pt;
+  margin: 0.8em 0 0.3em 0;
+  font-weight: 700;
+  break-after: avoid;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9pt;
+  margin: 0.4em 0 0.9em 0;
+  break-inside: avoid;
+}
+
+figure {
+  margin: 0.6em 0 0.8em 0;
+  break-inside: avoid;
+}
+
+figcaption {
+  font-size: 9pt;
+  color: #333333;
+}
+
+th,
+td {
+  border: 0.5pt solid #999999;
+  padding: 2.5pt 4pt;
+  vertical-align: top;
+  text-align: left;
+}
+
+th {
+  background: #f0f0f0;
+  font-weight: 700;
+}
+
+blockquote {
+  margin: 0.5em 0;
+  padding: 0.25em 0.8em;
+  border-left: 2pt solid #999999;
+  color: #333333;
+}
+

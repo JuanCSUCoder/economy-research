@@ -5,7 +5,7 @@ description: Generate print-ready Letter PDFs from Markdown with Pandoc and Weas
 
 # Markdown to PDF
 
-Use this skill when a Markdown document must become a clean PDF for printing or sending, especially files in `required_info/`.
+Use this skill when a Markdown document must become a clean PDF for printing or sending, especially the research reports in `reports/`.
 
 ## What this produces
 
@@ -56,7 +56,7 @@ pdftotext -layout output.pdf - | sed -n '1,220p'
 For a batch:
 
 ```sh
-for f in required_info/*.md; do
+for f in reports/*.md; do
   .opencode/skills/markdown-to-pdf/scripts/build-pdf.sh "$f" "${f%.md}.pdf"
 done
 ```
@@ -87,7 +87,10 @@ done
 
 In this repository:
 
-- `required_info/*.md` are final documents.
-- Their PDFs use the same base name.
-- After editing a Markdown final document, regenerate its PDF.
-- The `datos-para-documentos.md` data sheet lives outside `required_info/` and is not a final document.
+- `reports/<YYYY-MM-DD>-<slug>.es.md` and `.en.md` are final documents.
+- Their PDFs use the same base name in the same directory.
+- After editing a Markdown report, regenerate its PDF.
+- Relative figure paths (`figures/fig1.svg`) resolve because the build script
+  passes the input directory as WeasyPrint's base URL. Keep figures beside the
+  report and reference them relatively.
+- Data sheets under `data/` are not final documents and get no PDF.

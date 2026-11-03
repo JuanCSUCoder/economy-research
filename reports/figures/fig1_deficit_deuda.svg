@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330" role="img">
+<style>text{font-family:'DejaVu Sans',Arial,sans-serif;fill:#1f2933} .muted{fill:#6b7280} .grid{stroke:#e5e7eb;stroke-width:1} .axis{stroke:#6b7280;stroke-width:1}</style>
+<rect width="760" height="330" fill="#ffffff"/>
+<text x="20" y="20" font-size="15" font-weight="700">Colombia: déficit y deuda del Gobierno Nacional Central, 2021-2027</text>
+<text x="40" y="51" font-size="12" font-weight="600">Balance total del GNC (% del PIB)</text>
+<line x1="40" y1="265.0" x2="370" y2="265.0" class="grid"/>
+<text x="34" y="269.0" font-size="10" text-anchor="end" class="muted">-10</text>
+<line x1="40" y1="223.0" x2="370" y2="223.0" class="grid"/>
+<text x="34" y="227.0" font-size="10" text-anchor="end" class="muted">-8</text>
+<line x1="40" y1="181.0" x2="370" y2="181.0" class="grid"/>
+<text x="34" y="185.0" font-size="10" text-anchor="end" class="muted">-6</text>
+<line x1="40" y1="139.0" x2="370" y2="139.0" class="grid"/>
+<text x="34" y="143.0" font-size="10" text-anchor="end" class="muted">-4</text>
+<line x1="40" y1="97.0" x2="370" y2="97.0" class="grid"/>
+<text x="34" y="101.0" font-size="10" text-anchor="end" class="muted">-2</text>
+<line x1="40" y1="55.0" x2="370" y2="55.0" class="grid"/>
+<text x="34" y="59.0" font-size="10" text-anchor="end" class="muted">0</text>
+<rect x="48.5" y="55.0" width="30.2" height="147.0" fill="#b23a48" opacity="0.92"/>
+<text x="63.6" y="215.0" font-size="10" text-anchor="middle">-7,0</text>
+<rect x="95.6" y="55.0" width="30.2" height="111.3" fill="#b23a48" opacity="0.92"/>
+<text x="110.7" y="179.3" font-size="10" text-anchor="middle">-5,3</text>
+<rect x="142.8" y="55.0" width="30.2" height="88.2" fill="#b23a48" opacity="0.92"/>
+<text x="157.9" y="156.2" font-size="10" text-anchor="middle">-4,2</text>
+<rect x="189.9" y="55.0" width="30.2" height="140.7" fill="#b23a48" opacity="0.92"/>
+<text x="205.0" y="208.7" font-size="10" text-anchor="middle">-6,7</text>
+<rect x="237.1" y="55.0" width="30.2" height="134.4" fill="#b23a48" opacity="0.92"/>
+<text x="252.1" y="202.4" font-size="10" text-anchor="middle">-6,4</text>
+<rect x="284.2" y="55.0" width="30.2" height="151.2" fill="url(#hatch)" opacity="0.92"/>
+<text x="299.3" y="219.2" font-size="10" text-anchor="middle">-7,2</text>
+<rect x="331.3" y="55.0" width="30.2" height="197.4" fill="url(#hatch)" opacity="0.92"/>
+<text x="346.4" y="265.4" font-size="10" text-anchor="middle">-9,4</text>
+<text x="63.6" y="281" font-size="10" text-anchor="middle" class="muted">2021</text>
+<text x="110.7" y="281" font-size="10" text-anchor="middle" class="muted">2022</text>
+<text x="157.9" y="281" font-size="10" text-anchor="middle" class="muted">2023</text>
+<text x="205.0" y="281" font-size="10" text-anchor="middle" class="muted">2024</text>
+<text x="252.1" y="281" font-size="10" text-anchor="middle" class="muted">2025</text>
+<text x="299.3" y="281" font-size="10" text-anchor="middle" class="muted">2026</text>
+<text x="346.4" y="281" font-size="10" text-anchor="middle" class="muted">2027</text>
+<text x="420" y="51" font-size="12" font-weight="600">Deuda neta del GNC (% del PIB)</text>
+<line x1="420" y1="265.0" x2="720" y2="265.0" class="grid"/>
+<text x="414" y="269.0" font-size="10" text-anchor="end" class="muted">45</text>
+<line x1="420" y1="223.0" x2="720" y2="223.0" class="grid"/>
+<text x="414" y="227.0" font-size="10" text-anchor="end" class="muted">50</text>
+<line x1="420" y1="181.0" x2="720" y2="181.0" class="grid"/>
+<text x="414" y="185.0" font-size="10" text-anchor="end" class="muted">55</text>
+<line x1="420" y1="139.0" x2="720" y2="139.0" class="grid"/>
+<text x="414" y="143.0" font-size="10" text-anchor="end" class="muted">60</text>
+<line x1="420" y1="97.0" x2="720" y2="97.0" class="grid"/>
+<text x="414" y="101.0" font-size="10" text-anchor="end" class="muted">65</text>
+<line x1="420" y1="55.0" x2="720" y2="55.0" class="grid"/>
+<text x="414" y="59.0" font-size="10" text-anchor="end" class="muted">70</text>
+<polyline fill="none" stroke="#1f4e79" stroke-width="2.4" points="441.4,138.2 484.3,159.2 527.1,194.4 570.0,144.9 612.9,150.8 655.7,141.5 698.6,86.9"/>
+<circle cx="441.4" cy="138.2" r="3.4" fill="#1f4e79"/>
+<text x="441.4" y="130.2" font-size="10" text-anchor="middle">60,1</text>
+<circle cx="484.3" cy="159.2" r="3.4" fill="#1f4e79"/>
+<text x="484.3" y="151.2" font-size="10" text-anchor="middle">57,6</text>
+<circle cx="527.1" cy="194.4" r="3.4" fill="#1f4e79"/>
+<text x="527.1" y="186.4" font-size="10" text-anchor="middle">53,4</text>
+<circle cx="570.0" cy="144.9" r="3.4" fill="#1f4e79"/>
+<text x="570.0" y="136.9" font-size="10" text-anchor="middle">59,3</text>
+<circle cx="612.9" cy="150.8" r="3.4" fill="#1f4e79"/>
+<text x="612.9" y="142.8" font-size="10" text-anchor="middle">58,6</text>
+<circle cx="655.7" cy="141.5" r="3.4" fill="#1f4e79"/>
+<text x="655.7" y="133.5" font-size="10" text-anchor="middle">59,7</text>
+<circle cx="698.6" cy="86.9" r="3.4" fill="#1f4e79"/>
+<text x="698.6" y="78.9" font-size="10" text-anchor="middle">66,2</text>
+<text x="441.4" y="281" font-size="10" text-anchor="middle" class="muted">2021</text>
+<text x="484.3" y="281" font-size="10" text-anchor="middle" class="muted">2022</text>
+<text x="527.1" y="281" font-size="10" text-anchor="middle" class="muted">2023</text>
+<text x="570.0" y="281" font-size="10" text-anchor="middle" class="muted">2024</text>
+<text x="612.9" y="281" font-size="10" text-anchor="middle" class="muted">2025</text>
+<text x="655.7" y="281" font-size="10" text-anchor="middle" class="muted">2026</text>
+<text x="698.6" y="281" font-size="10" text-anchor="middle" class="muted">2027</text>
+<defs><pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="5" height="5" fill="#b23a48" opacity="0.25"/><line x1="0" y1="0" x2="0" y2="5" stroke="#b23a48" stroke-width="2"/></pattern></defs>
+<text x="40" y="305" font-size="9" class="muted">Barras rayadas: 2026-2027 son proyección oficial (Plan Financiero de agosto de 2026). 2027 sin la Ley de Rescate.</text>
+<text x="40" y="319" font-size="9" class="muted">Fuente: MHCP, Cierre fiscal 2024; CARF, Informe al Congreso, septiembre de 2026; Plan Financiero 2026-2027.</text>
+</svg>

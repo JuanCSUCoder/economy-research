@@ -34,8 +34,14 @@ pandoc "$input" \
   --wrap=none \
   --output "$tmpdir/body.html"
 
+input_dir=$(cd "$(dirname "$input")" && pwd)
+lang=es
+case "$input" in
+  *.en.md) lang=en ;;
+esac
+
 {
-  printf '%s\n' '<!doctype html><html lang="es"><head><meta charset="utf-8"><style>'
+  printf '%s\n' "<!doctype html><html lang=\"$lang\"><head><meta charset=\"utf-8\"><style>"
   cat "$css"
   printf '%s\n' '</style></head><body>'
   cat "$tmpdir/body.html"
@@ -43,7 +49,7 @@ pandoc "$input" \
 } > "$tmpdir/document.html"
 
 mkdir -p "$(dirname "$output")"
-weasyprint "$tmpdir/document.html" "$output"
+weasyprint --base-url "file://$input_dir/" "$tmpdir/document.html" "$output"
 
 echo "PDF: $output"
 
