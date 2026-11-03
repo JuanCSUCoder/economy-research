@@ -1,0 +1,59 @@
+@page {
+  size: Letter;
+  margin: 1.8cm 1.9cm 1.8cm 1.9cm;
+}
+
+html {
+  font-size: 10.5pt;
+}
+
+body {
+  font-family: "DejaVu Sans", "Liberation Sans", Arial, Helvetica, sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.35;
+  color: #111111;
+  margin: 0;
+  orphans: 3;
+  widows: 3;
+}
+
+h1 {
+  font-size: 15pt;
+  line-height: 1.2;
+  margin: 0 0 0.8em 0;
+  font-weight: 700;
+  break-after: avoid;
+}
+
+h2 {
+  font-size: 11.5pt;
+  margin: 1em 0 0.35em 0;
+  font-weight: 700;
+  break-after: avoid;
+}
+
+p {
+  margin: 0 0 0.55em 0;
+  text-align: justify;
+}
+
+ul,
+ol {
+  margin: 0 0 0.6em 1.15em;
+  padding: 0;
+}
+
+li {
+  margin: 0 0 0.2em 0;
+  break-inside: avoid;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #999999;
+  margin: 0.7em 0;
+}
+
+strong {
+  font-weight: 700;
+}
