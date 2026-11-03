@@ -67,6 +67,18 @@ whether a series is nominal or real.
 
 Example IDs: `dane-ipc`, `banrep-trm`, `dian-importaciones`.
 
+### Skills in this workspace
+
+- `colombia-fiscal`: CARF, MHCP, DANE and Banco de la República. Fetcher:
+  `.opencode/skills/colombia-fiscal/scripts/fetch_fiscal.sh`.
+- `congreso-proyectos-ley`: Cámara/Senado bills, status and article index.
+  Fetcher: `.opencode/skills/congreso-proyectos-ley/scripts/fetch_bill.py`.
+- `markdown-to-pdf`: builds the Letter/DejaVu PDF from the Markdown report.
+- `install-pdf-tools`: restores Pandoc, WeasyPrint, poppler and DejaVu.
+
+Shared, source-agnostic chart code lives in `src/econ_research/make_charts.py`
+and reads `data/processed/`. Keep fetchers inside their skill.
+
 ## Layout and commands
 
 ```text
@@ -102,10 +114,11 @@ tests/
 ## Report structure
 
 Spanish report: Resumen ejecutivo, Contexto, Datos y metodología, Resultados,
-Teoría económica, Conclusiones, Limitaciones, Fuentes. English summary: 5–10
+Teoría económica, Conclusiones, Limitaciones, Referencias. English summary: 5–10
 bullets mirroring the conclusions. Every chart/table states source, unit,
-period, and nominal/real basis. Each claim links to a `Fuentes` entry with URL
-and access date. Every report ships as `.md` + `.pdf` with the same base name;
+period, and nominal/real basis. Each claim cites an APA 7 reference in
+`Referencias`, with URL and access date. Every report ships as `.md` + `.pdf`
+with the same base name;
 the PDF is the print artifact (Letter, DejaVu Sans, no cover page, no page
 numbers unless requested).
 

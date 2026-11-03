@@ -101,6 +101,14 @@ th {
   font-weight: 700;
 }
 
+h2#referencias ~ p,
+h2#references ~ p {
+  font-size: 9.5pt;
+  line-height: 1.25;
+  margin-left: 1.2em;
+  text-indent: -1.2em;
+}
+
 blockquote {
   margin: 0.5em 0;
   padding: 0.25em 0.8em;

@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-# Fetch the core Colombian fiscal/macro documents for a given research cut-off.
+# Fetch the core Colombian fiscal/macro documents for a research cut-off.
 # Idempotent: skips files that already exist unless --force is passed.
 set -euo pipefail
 
 FORCE=0
 if [[ "${1:-}" == "--force" ]]; then FORCE=1; fi
 
-ROOT="${REPO_ROOT:-$(cd "$(dirname "${BASH_SOURCE[0]}")/../../../.." && pwd)}"
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../../.." && pwd)"
 TODAY="$(date +%F)"
 OUT="$ROOT/data/raw"
 UA="econ-research/1.0 (+https://github.com/)"

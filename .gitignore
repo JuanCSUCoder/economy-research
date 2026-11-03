@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# OpenChamber local artifacts
+.openchamber/
+
+# Raw downloads: keep PDFs, text extracts and spreadsheets out of Git.
+# Manifests with URLs and checksums stay tracked.
+data/raw/**/*.pdf
+data/raw/**/*.txt
+data/raw/**/*.xlsx
+data/raw/**/*.xls
+data/raw/**/*.csv
+!data/raw/**/manifest.csv
+
+# OS
+.DS_Store

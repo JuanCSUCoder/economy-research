@@ -34,6 +34,22 @@ pandoc "$input" \
   --wrap=none \
   --output "$tmpdir/body.html"
 
+# WeasyPrint ignores <ol start="N">; turn it into an explicit counter reset.
+python3 - "$tmpdir/body.html" <<'PY'
+import re
+import sys
+
+path = sys.argv[1]
+text = open(path, encoding="utf-8").read()
+
+def fix(match: re.Match[str]) -> str:
+    start = int(match.group(1))
+    return f'<ol style="counter-reset: list-item {start - 1}" type="1">'
+
+text = re.sub(r'<ol start="(\d+)" type="1">', fix, text)
+open(path, "w", encoding="utf-8").write(text)
+PY
+
 input_dir=$(cd "$(dirname "$input")" && pwd)
 lang=es
 case "$input" in
